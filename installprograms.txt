@@ -1,0 +1,73 @@
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco feature enable -n allowGlobalConfirmation
+
+
+
+
+---Browsers
+choco install googlechrome
+choco install lastpass
+choco install firefox
+choco install adblockplus-firefox
+
+---Webplayers
+choco install flashplayerplugin
+choco install flashplayeractivex
+choco install jre8
+choco install javaruntime
+choco install jdk8
+choco install silverlight
+choco install adobeair
+
+---Media
+choco install adobereader
+choco install vlc
+choco install spotify
+
+---OtherUtils
+choco update chocolatey
+choco install 7zip.install
+choco install f.lux
+#choco install k-litecodecpackmega
+
+---Notepads
+choco install notepadplusplus.install
+choco install sublimetext3
+choco install vscode
+
+
+---Core programming (Terminals and IDE)
+choco install python
+choco install python3
+choco install anaconda3
+choco install r.project
+choco install r.studio
+choco install git.install
+choco install cmder
+
+
+---Personal
+choco install dropbox
+choco install steam
+choco install qbittorrent
+choco install discord
+choco install openvpn
+#choco install obs-studio
+#choco install rufus
+#choco install miktex
+#choco install texmaker
+---PC Cleaning
+choco install ccleaner
+choco install revo-uninstaller
+
+
+---Work
+choco install intellijidea-community
+#choco install gitkraken
+#choco install winscp
+#choco install visualstudio2017community
+
+
