@@ -52,8 +52,8 @@ echo 'mkdir -p source/{utils,preparation,processing,modelling}' >> project_dir.s
 echo 'mkdir -p data/{raw,processed}' >> project_dir.sh
 echo 'mkdir -p notebooks/{eda,poc,modelling,evaluation}' >> project_dir.sh
 
-
-
+# message
+echo 'script has been run'
 
 
 
