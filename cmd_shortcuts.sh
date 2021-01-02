@@ -2,7 +2,6 @@ cd /c/tools/cmder/config
 
 # paths
 echo 'alias cmder_path="cd /c/tools/cmder/config"' >> user_profile.sh
-echo 'alias dropbox="cd /c/Dropbox\ \(Personal\)"' >> user_profile.sh
 echo 'alias cmder_config="nano /c/tools/cmder/config/user_profile.sh"' >> user_profile.sh
 echo 'alias cmder_config2="nano /c/Dropbox\ \(Personal\)/cmd_shortcuts.sh"' >> user_profile.sh
 
