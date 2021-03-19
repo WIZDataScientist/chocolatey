@@ -72,3 +72,11 @@ choco install intellijidea-community
 #choco install visualstudio2017community
 choco install docker-desktop
 
+
+---Scala
+---https://almond.sh/docs/quick-start-install
+choco install sbt
+bitsadmin /transfer downloadCoursierCli https://git.io/coursier-cli "%cd%\coursier"
+bitsadmin /transfer downloadCoursierBat https://git.io/coursier-bat "%cd%\coursier.bat"
+.\coursier launch --fork almond -- --install
+
