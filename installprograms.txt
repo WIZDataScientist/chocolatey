@@ -66,7 +66,6 @@ choco install revo-uninstaller
 
 ---Work
 choco install intellijidea-community
-#choco install gitkraken
 #choco install winscp
 #choco install visualstudio2017community
 
