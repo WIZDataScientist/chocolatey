@@ -9,7 +9,7 @@ choco feature enable -n allowGlobalConfirmation
 
 ---Browsers
 choco install googlechrome
-choco install lastpass
+choco install bitwarden
 choco install firefox
 choco install adblockplus-firefox
 
