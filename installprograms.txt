@@ -68,5 +68,5 @@ choco install revo-uninstaller
 choco install intellijidea-community
 #choco install winscp
 #choco install visualstudio2017community
-
+choco install docker-desktop
 
