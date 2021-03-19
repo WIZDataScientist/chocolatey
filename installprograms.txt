@@ -59,6 +59,8 @@ choco install openvpn
 #choco install rufus
 #choco install miktex
 #choco install texmaker
+choco install sbt
+
 ---PC Cleaning
 choco install ccleaner
 choco install revo-uninstaller
